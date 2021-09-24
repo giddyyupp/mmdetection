@@ -86,7 +86,7 @@ test_pipeline = [
 ]
 
 dataset_type = 'CocoDataset'
-data_root = 'data/coco/'
+data_root = '/truba/scratch/shicsonmez/mscoco/'
 
 # Use RepeatDataset to speed up training
 data = dict(
@@ -99,7 +99,7 @@ data = dict(
         dataset=dict(
             type=dataset_type,
             ann_file=data_root + 'annotations/instances_train2017.json',
-            img_prefix=data_root + 'train2017/',
+            img_prefix=data_root + 'images/train2017/',
             pipeline=train_pipeline)),
     val=dict(pipeline=test_pipeline),
     test=dict(pipeline=test_pipeline))
