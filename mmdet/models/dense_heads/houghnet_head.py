@@ -76,7 +76,7 @@ class HoughNetHead(CenterNetHead):
     def init_weights(self):
         """Initialize weights of the head."""
         bias_init = bias_init_with_prob(0.1)
-        self.heatmap_head[-1].bias.data.fill_(bias_init)
+        self.heatmap_head[-2].bias.data.fill_(bias_init)
         for head in [self.wh_head, self.offset_head]:
             for m in head.modules():
                 if isinstance(m, nn.Conv2d):
