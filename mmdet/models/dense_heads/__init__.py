@@ -18,6 +18,7 @@ from .ga_retina_head import GARetinaHead
 from .ga_rpn_head import GARPNHead
 from .gfl_head import GFLHead
 from .guided_anchor_head import FeatureAdaption, GuidedAnchorHead
+from .houghnet_head import HoughNetHead
 from .ld_head import LDHead
 from .nasfcos_head import NASFCOSHead
 from .paa_head import PAAHead
@@ -45,5 +46,5 @@ __all__ = [
     'SABLRetinaHead', 'CentripetalHead', 'VFNetHead', 'StageCascadeRPNHead',
     'CascadeRPNHead', 'EmbeddingRPNHead', 'LDHead', 'CascadeRPNHead',
     'AutoAssignHead', 'DETRHead', 'YOLOFHead', 'DeformableDETRHead',
-    'CenterNetHead', 'YOLOXHead'
+    'CenterNetHead', 'YOLOXHead', 'HoughNetHead'
 ]

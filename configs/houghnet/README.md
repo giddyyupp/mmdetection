@@ -1,15 +1,15 @@
-# CenterNet
+# HoughNet
 
 ## Introduction
 
 <!-- [ALGORITHM] -->
 
 ```latex
-@article{zhou2019objects,
-  title={Objects as Points},
-  author={Zhou, Xingyi and Wang, Dequan and Kr{\"a}henb{\"u}hl, Philipp},
-  booktitle={arXiv preprint arXiv:1904.07850},
-  year={2019}
+@inproceedings{HoughNet,
+  author = {Nermin Samet and Samet Hicsonmez and Emre Akbas},
+  title = {HoughNet: Integrating near and long-range evidence for bottom-up object detection},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year = {2020},
 }
 ```
 
@@ -17,8 +17,8 @@
 
 | Backbone        | DCN |  Mem (GB) | Box AP | Flip box AP| Config | Download |
 | :-------------: | :--------: |:----------------: | :------: | :------------: | :----: | :----: |
-| ResNet-18 | N | 3.45 | 25.9 | 27.3 | [config](https://github.com/open-mmlab/mmdetection/tree/master/configs/centernet/centernet_resnet18_140e_coco.py) | [model](https://download.openmmlab.com/mmdetection/v2.0/centernet/centernet_resnet18_140e_coco/centernet_resnet18_140e_coco_20210705_093630-bb5b3bf7.pth) &#124; [log](https://download.openmmlab.com/mmdetection/v2.0/centernet/centernet_resnet18_140e_coco/centernet_resnet18_140e_coco_20210705_093630.log.json) |
-| ResNet-18 | Y | 3.47 | 29.5 | 30.9 | [config](https://github.com/open-mmlab/mmdetection/tree/master/configs/centernet/centernet_resnet18_dcnv2_140e_coco.py) | [model](https://download.openmmlab.com/mmdetection/v2.0/centernet/centernet_resnet18_dcnv2_140e_coco/centernet_resnet18_dcnv2_140e_coco_20210702_155131-c8cd631f.pth) &#124; [log](https://download.openmmlab.com/mmdetection/v2.0/centernet/centernet_resnet18_dcnv2_140e_coco/centernet_resnet18_dcnv2_140e_coco_20210702_155131.log.json) |
+| ResNet-18 | N | 3.45 | 25.9 | 27.3 | [config](https://github.com/open-mmlab/mmdetection/tree/master/configs/houghnet/houghnet_resnet18_140e_coco.py) | [model](https://download.openmmlab.com/mmdetection/v2.0/centernet/centernet_resnet18_140e_coco/centernet_resnet18_140e_coco_20210705_093630-bb5b3bf7.pth) &#124; [log](https://download.openmmlab.com/mmdetection/v2.0/centernet/centernet_resnet18_140e_coco/centernet_resnet18_140e_coco_20210705_093630.log.json) |
+| ResNet-18 | Y | 3.47 | 29.5 | 30.9 | [config](https://github.com/open-mmlab/mmdetection/tree/master/configs/houghnet/houghnet_resnet18_dcnv2_140e_coco.py) | [model](https://download.openmmlab.com/mmdetection/v2.0/centernet/centernet_resnet18_dcnv2_140e_coco/centernet_resnet18_dcnv2_140e_coco_20210702_155131-c8cd631f.pth) &#124; [log](https://download.openmmlab.com/mmdetection/v2.0/centernet/centernet_resnet18_dcnv2_140e_coco/centernet_resnet18_dcnv2_140e_coco_20210702_155131.log.json) |
 
 Note:
 
