@@ -9,6 +9,6 @@ model = dict(
 
 # Use RepeatDataset to speed up training
 data = dict(
-    samples_per_gpu=64,
+    samples_per_gpu=32,
     workers_per_gpu=12,
 )
